@@ -9,15 +9,21 @@
 <body>
 <div class="container">
     <h1>Регистрация</h1>
-    <form action="register.php" method="post">
+    <form action="/register.php" method="post">
         <div class="form-group">
-            <input type="email" id="email" name="email" placeholder="email" required>
+            <input type="email" id="email" name="email" placeholder="email">
         </div>
         <div class="form-group">
-            <input type="password" id="password" name="password" placeholder="password" required>
+            <input type="password" id="password" name="password" placeholder="password">
+        </div>
+        <div class="form-group">
+            <input type="password" id="repeatPassword" name="repeatPassword" placeholder="repeat password">
         </div>
         <button type="submit">Зарегестрироваться</button>
     </form>
+    <div class="message">
+        Уже зарегистрированы? <a href="/login.html">Войти в аккаунт</a>
+    </div>
 </div>
 </body>
 </html>

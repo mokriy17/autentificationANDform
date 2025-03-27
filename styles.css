@@ -33,7 +33,8 @@ label {
 }
 
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="repeatPassword"]{
     width: calc(100% - 20px);
     padding: 15px;
     border: 1px solid #ccc;
